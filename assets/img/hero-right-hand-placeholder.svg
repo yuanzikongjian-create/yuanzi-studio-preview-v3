@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#1b2530"/>
+<rect x="640" y="0" width="640" height="1080" fill="#3a352d"/>
+<line x1="640" y1="0" x2="640" y2="1080" stroke="#c0392b" stroke-width="4" stroke-dasharray="18 12"/>
+<line x1="1280" y1="0" x2="1280" y2="1080" stroke="#c0392b" stroke-width="4" stroke-dasharray="18 12"/>
+<text x="960" y="860" fill="#ece6da" font-family="serif" font-size="96" text-anchor="middle">右手</text>
+<text x="960" y="935" fill="#c9a96a" font-family="sans-serif" font-size="30" text-anchor="middle">PLACEHOLDER 16:9</text>
+</svg>
