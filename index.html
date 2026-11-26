@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0a0610">
+<title>首页 · 元子空间</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">元子空间</a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
+  <a class="lang lang-bar" href="en/index.html" lang="en">English</a>
+  <nav id="site-nav" class="site-nav" aria-label="主导航">
+    <ul><li><a href="index.html" aria-current="page">首页</a></li><li><a href="studio/index.html">工作室</a></li><li><a href="originals/index.html">原创 IP</a></li><li><a href="collaborate/index.html">合作</a></li><li><a href="work/index.html">作品集</a></li><li><a href="contact/index.html">联系</a></li></ul>
+    <a class="lang" href="en/index.html" lang="en">English</a>
+  </nav>
+</header>
+<main>
+
+<!-- 首页主视觉：右手终图（桌面 16:9 横版；窄屏/竖屏用 9:16 竖版），见 README -->
+<section class="hero">
+  <div class="hero-media">
+    <picture>
+      <source media="(max-width: 768px), (orientation: portrait)" srcset="assets/img/hero-right-hand-portrait.webp" type="image/webp">
+      <source media="(max-width: 768px), (orientation: portrait)" srcset="assets/img/hero-right-hand-portrait.jpg" type="image/jpeg">
+      <source srcset="assets/img/hero-right-hand.webp" type="image/webp">
+      <img class="hero-img" src="assets/img/hero-right-hand.jpg" alt="AI 辅助制作的配图：暗色雨林中伸出的一只右手，前臂上有发光的螺旋纹" width="1920" height="1080">
+    </picture>
+    <!-- 视差图层：默认隐藏（无 JS / reduced-motion 时只显示上面的合成图）；assets/plx.js 加 class 后才显示。外层 .plx-layer 管滚动位移，内层 picture 管鼠标位移 -->
+    <div class="plx" aria-hidden="true">
+      <div class="plx-layer plx-bg"><picture class="plx-bg-m">
+        <source media="(max-width: 768px), (orientation: portrait)" srcset="assets/img/plx-mobile-bg.webp" type="image/webp">
+        <img src="assets/img/plx-desktop-bg.webp" alt="" width="1920" height="1080" loading="eager" decoding="async">
+      </picture></div>
+      <div class="plx-layer plx-hand"><picture class="plx-hand-m">
+        <source media="(max-width: 768px), (orientation: portrait)" srcset="assets/img/plx-mobile-hand.webp" type="image/webp">
+        <img src="assets/img/plx-desktop-hand.webp" alt="" width="1920" height="1080" loading="eager" decoding="async">
+      </picture></div>
+    </div>
+  </div>
+  <h1 class="tagline"><span class="s"><span class="p">有些知识</span><span class="p">不是学来的。</span></span><span class="s"><span class="p">在婆罗洲，</span><span class="p">它会醒来。</span></span></h1>
+  <div class="hero-text">
+    <p class="hero-title">《上帝右手》</p>
+    <div class="btns">
+      <a class="btn btn-solid" href="https://yuanzikongjian.blogspot.com/" target="_blank" rel="noopener noreferrer">免费读第一部</a>
+      <a class="btn btn-line" href="collaborate/index.html">商务合作</a>
+    </div>
+  </div>
+</section>
+<section class="block">
+  <article class="ip-card">
+    <div class="cover"><img src="assets/img/hero-right-hand-portrait.webp" alt="暗色雨林中伸出的一只右手" width="941" height="1672"></div>
+    <div>
+      <h2><a href="originals/index.html">《上帝右手》</a></h2>
+      <p class="muted">婆罗洲雨林 · 长篇科幻三部曲</p>
+      <ul class="tags"><li>三部已完稿</li><li>第一部免费阅读</li><li>第二、三部未公开</li><li>改编授权开放洽谈</li></ul>
+    </div>
+  </article>
+</section>
+<section class="block related">
+  <h2>游戏与预告</h2>
+  <p class="muted">试玩与预告片（新窗口打开）</p>
+  <ul class="related-links">
+    <li><a href="https://yuanzikongjian-create.github.io/the-right-handed-god/" target="_blank" rel="noopener noreferrer">卡牌游戏《瑟兰试炼》</a></li>
+    <li><a href="https://yuanzikongjian-create.github.io/the-right-handed-god/hub.html" target="_blank" rel="noopener noreferrer">游戏总页</a></li>
+    <li><a href="https://yuanzikongjian-create.github.io/the-right-handed-god/media/trailer_zh.mp4" target="_blank" rel="noopener noreferrer">中文预告片</a></li>
+  </ul>
+</section>
+<section class="block center">
+  <p class="big"><a href="studio/index.html">一个砂拉越作者的个人工作室。三部长篇已经写完，下一步，是让它们被看见。</a></p>
+</section>
+<section class="block center">
+  <a class="chips" href="collaborate/index.html"><span>改编与联合开发</span><span>出版与发行</span><span>角色形象合作</span><span>产业节与提案</span></a>
+</section>
+<section class="block doors" aria-label="从这里进入">
+  <p class="eyebrow">从这里进入</p>
+  <div class="door-row"><a class="door door-studio" href="studio/index.html"><picture><source type="image/webp" srcset="assets/img/doors/door_studio_desk.webp"><img src="assets/img/doors/door_studio_desk.jpg" alt="AI 辅助制作的配图：暗调书桌上，台灯下的摄影机、胶片盘与手稿" width="941" height="1672" loading="lazy" decoding="async"></picture><span class="door-t">工作室</span><span class="door-s">在古晋的个人创作工作室</span></a><a class="door door-orig" href="originals/index.html"><picture><source type="image/webp" srcset="assets/img/doors/door_originals_pillar.webp"><img src="assets/img/doors/door_originals_pillar.jpg" alt="AI 辅助制作的配图：雨雾中，一个小小的人影站在巨大的苔藓石柱脚下" width="941" height="1672" loading="lazy" decoding="async"></picture><span class="door-t">原创 IP</span><span class="door-s">《上帝右手》三部曲</span></a><a class="door door-collab" href="collaborate/index.html"><picture><source type="image/webp" srcset="assets/img/doors/door_collaborate_hands.webp"><img src="assets/img/doors/door_collaborate_hands.jpg" alt="AI 辅助制作的配图：两只手隔着发光的门槛，即将相触" width="941" height="1672" loading="lazy" decoding="async"></picture><span class="door-t">合作</span><span class="door-s">改编、出版与角色形象合作</span></a></div>
+</section>
+<section class="block contact-strip">
+  <p>来信请简单说明你的意向和机构名称（个人创作者写你的公开账号即可）。</p>
+  <p><a href="mailto:yuanzikongjian@gmail.com">yuanzikongjian@gmail.com</a></p>
+</section>
+<nav class="pager" aria-label="页面翻页"><span></span><a class="pg-next" href="studio/index.html"><span class="pg-k">下一页 →</span><span class="pg-t">工作室</span></a></nav>
+</main>
+<footer class="site-footer">
+  <ul class="foot-nav"><li><a href="index.html" aria-current="page">首页</a></li><li><a href="studio/index.html">工作室</a></li><li><a href="originals/index.html">原创 IP</a></li><li><a href="collaborate/index.html">合作</a></li><li><a href="work/index.html">作品集</a></li><li><a href="contact/index.html">联系</a></li></ul>
+  <p><a class="lang" href="en/index.html" lang="en">English</a></p>
+  <p class="small">© 2026 元子空间</p>
+</footer>
+<script src="assets/reveal.js"></script>
+<script src="assets/geo.js"></script>
+<script src="assets/nav.js"></script>
+<script src="assets/plx.js"></script>
+</body>
+</html>
